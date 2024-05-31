@@ -1,7 +1,7 @@
 Repository created to track all programs written following along with Python Crash Course boook
 
 To add new program to github:
-\n1.) Create new folder in file explorer OR in VScode, both will sync.
+1.) Create new folder in file explorer OR in VScode, both will sync.
 2.) Create new Python file in VScode
 3.) Save progam in designated crash_course folder
 4.) Write code
