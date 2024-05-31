@@ -51,8 +51,9 @@ removed = guests.pop()
 print(f"You cannot sit with us {removed}")
 print(f"congratulations {guests[0]} and {guests[1]}, you made the final cut.")
 
-
-
+del guests[0]
+del guests[0]
+print(guests)
 
 
 
