@@ -20,4 +20,17 @@ print(rand_list[2:])
 
 #4-11 My Pizzas, Your Pizzas
 #==============================================================================
+pizzas = ['cheese', 'pepperoni', 'supreme']
+friend_pizzas = pizzas[:]
 
+pizzas.append('anchovie')
+friend_pizzas.pop()
+friend_pizzas.append('hawiian (ew)')
+
+print("My favorite pizzas are:")
+for pizza in pizzas:
+    print(pizza)
+
+print("MY friends favorite pizzas are:")
+for friend_pizza in friend_pizzas:
+    print(friend_pizza)
