@@ -34,3 +34,16 @@ for pizza in pizzas:
 print("MY friends favorite pizzas are:")
 for friend_pizza in friend_pizzas:
     print(friend_pizza)
+
+#4-13 Buffet
+#==============================================================================
+foods = ('bread', 'paste', 'shrimp', 'soup', 'onion')
+#to show that tuples cannot be changed
+#foods.append('sus')
+
+for food in foods:
+    print(food)
+
+foods = ('bread', 'goolash', 'steak', 'soup', 'onion')
+for food in foods:
+    print(food)
