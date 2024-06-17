@@ -4,6 +4,7 @@
 # 
 #==============================================================================
 
+#comment out one list to change output
 requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
 requested_toppings = []
 
