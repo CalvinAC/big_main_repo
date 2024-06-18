@@ -10,7 +10,7 @@
 user_names = ['admin', 'david', 'joe', 'sam', 'bill']
 
 for username in user_names:
-    if 'admin 'in user_names == True:
+    if username == 'admin':
         print('Hello Mr. Bond')
     else:
         print(f"Welcome back {username}")
@@ -44,5 +44,15 @@ for newuser in new_users:
 
 # 5-11 Ordinal Numbers
 #==============================================================================
+ordinal_num = [1,2,3,4,5,6,7,8,9]
 
+for num in ordinal_num:
+    if num == 1:
+        print(f"{num}st")
+    elif num == 2:
+        print(f"{num}nd")
+    elif num ==3:
+        print(f"{num}rd")
+    else:
+        print(f"{num}th")
 
