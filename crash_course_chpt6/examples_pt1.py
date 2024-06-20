@@ -16,7 +16,18 @@ print(stalker)
 
 # 6-2 Favorite Number
 #==============================================================================
+fav_number = {'david': 13,
+              'lane': 69,
+              'dylan': 420,
+              'sean': 666,
+              'tyson': 0
+}
 
+print(f"Davids favorite number is {fav_number['david']}")
+print(f"Lanes favorite number is {fav_number['lane']}")
+print(f"Dylans favorite number is {fav_number['dylan']}")
+print(f"Seans favorite number is {fav_number['sean']}")
+print(f"Tysons favorite number is {fav_number['tyson']}")
 
 # 6-3 Glossary
 #==============================================================================
