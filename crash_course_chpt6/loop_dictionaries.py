@@ -10,6 +10,17 @@ user_0 = {
     'last': 'fermi'
 }
 
+#can create mulitple variable names for loops
 for key, value in user_0.items():
     print(f"\nKey: {key}")
-    print(f"\nValue: {value}")
+    print(f"Value: {value}")
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python'
+}
+
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}")
