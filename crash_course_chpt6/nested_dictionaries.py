@@ -19,11 +19,12 @@ for alien_number in range(30):
     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
     aliens.append(new_alien)
 
+#changes attributes for the first 3 aliens in dictionary
 for alien in aliens[:3]:
     if alien['color'] == 'green':
-        alien['color'] == 'yellow'
-        alien['speed'] == 'meduim'
-        alien['points'] == 10
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
 
 for alien in aliens[:5]:
     print(alien)
@@ -31,8 +32,26 @@ print("...")
 
 print(f"Total number of aliens: {len(aliens)}")
 
+#==============================================================================
 
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese'],
+}
 
+print(f"You ordered a {pizza['crust']}-crust pizza"
+      " with the following toppings:")
+for topping in pizza['toppings']:
+    print(f"\t{topping}")
+
+#==============================================================================
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python'
+}
 
 
 
