@@ -35,4 +35,13 @@ for name in favorite_languages.keys():
         language = favorite_languages[name].title()
         print(f"\t{name.title()}, I see you love {language}!")
 
+#sorts the names alphabetically then prints them
+for name in sorted(favorite_languages.keys()):
+    print(f"{name.title()}, thank you for taking the poll.")
+
+#prints the values in favorite_languages dictionary
+print("The following languages have been mentioned:")
+    #set removes duplicates in dictionary
+for language in set(favorite_languages.values()):
+    print(language.title())
 
