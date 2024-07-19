@@ -4,8 +4,11 @@
 # 
 #==============================================================================
 
-def greet_user():
-    """Display a simple greeting."""
-    print("Hello!")
+#name =input("what is your name?")
 
-greet_user()
+def greet_user(username):
+    """Display a simple greeting."""
+    print(f"Hello, {username.title()}!")
+
+greet_user('jesse')
+#greet_user(name)
