@@ -31,8 +31,15 @@ print(musician)
 
 while True:
     print('\nPlease tell me your name: ')
-    f_name = input("First name: ")
-    l_name = input('Last name: ')
+    print('(Enter "q" at any time to quit)')
 
+    f_name = input("First name: ")
+    if f_name == 'q':
+        break
+
+    l_name = input('Last name: ')
+    if l_name == 'q':
+        break
+    
     formatted_name = get_formatted_name(f_name, l_name)
-    print(f"\nHellos, {formatted_name}!")
+    print(f"\nHello, {formatted_name}!")
