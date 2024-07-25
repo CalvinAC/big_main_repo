@@ -16,9 +16,6 @@ greet_users(usernames)
 
 # Start with some designs that need to be printed.
 
-
-
-
 def print_models(unprinted_designs, completed_models):
     """Simulate printing each design, until none are left.
      Move each design to completed_models after printing."""
@@ -40,3 +37,13 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+
+def make_pizza(*toppings):
+    """"Summarize the pizza we are about to make."""
+    print("\nMaking a pizza with the following toppings:")
+    for topping in toppings:
+        print(f'- {topping}')
+
+make_pizza('pepperoni')
+make_pizza('mushrooms','green peppers','extra cheese')
