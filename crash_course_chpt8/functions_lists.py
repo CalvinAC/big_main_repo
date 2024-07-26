@@ -39,11 +39,24 @@ print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
 
 
-def make_pizza(*toppings):
+def make_pizza(size, *toppings):
     """"Summarize the pizza we are about to make."""
-    print("\nMaking a pizza with the following toppings:")
+    print(f"\nMaking a {size} - inch pizza with the following toppings:")
     for topping in toppings:
         print(f'- {topping}')
 
-make_pizza('pepperoni')
-make_pizza('mushrooms','green peppers','extra cheese')
+make_pizza(16,'pepperoni')
+make_pizza(12,'mushrooms','green peppers','extra cheese')
+
+
+def build_profile(first, last, **user_info):
+    """Build a ditionary containing everything we know about a user."""
+    user_info['first name'] = first
+    user_info['last name']  = last
+    return user_info
+
+user_profile = build_profile('albert', 'einstein',
+                             location= 'princeton',
+                             field= 'physics')
+print(user_profile)
+
