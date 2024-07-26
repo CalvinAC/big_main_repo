@@ -22,3 +22,6 @@ mp(47, 'anchovies', 'bottom text')
 import pizza_pie as pi
 
 pi.make_pizza(55, 'bananas')
+
+#Imports all functions from pizza_pie
+from pizza_pie import *
