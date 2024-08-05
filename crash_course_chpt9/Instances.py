@@ -21,7 +21,7 @@ class Car:
     
     def read_odometer(self):
         """Print a statement showig the car's mileage"""
-        print(f"This care has {self.odometer_reading} miles on it.")
+        print(f"This car has {self.odometer_reading} miles on it.")
     
 my_new_car = Car('audi', 'a4', 2019)
 print(my_new_car.get_descriptive_name())
